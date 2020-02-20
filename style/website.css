@@ -1,8 +1,15 @@
-h3 {
+/*大点*/
+h2 {
     background:#00ae88;
     display:block;
     padding:10px;
     margin:5px;
     color:#fff;
     border-radius:5px;
+    border:none;
+}
+/*案例*/
+
+h3 {
+    color:#00ae88;
 }
