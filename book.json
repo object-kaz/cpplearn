@@ -3,5 +3,19 @@
         "highlight",
         "copy-code",
         "comment"
-    ]
+    ],
+    "pluginsConfig": {
+        "theme-default": {
+            "single": true,
+            "show_nav": true,
+            "logo": {},
+            "navs": [
+                {
+                    "title": "仓库地址",
+                    "url": "https://gitee.com/pikoyo/cpplearn",
+                    "target": true
+                }
+            ]
+        }
+    }
 }
