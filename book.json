@@ -11,8 +11,13 @@
             "logo": {},
             "navs": [
                 {
-                    "title": "仓库地址",
+                    "title": "码云仓库地址",
                     "url": "https://gitee.com/pikoyo/cpplearn",
+                    "target": true
+                },
+                {
+                    "title": "Github仓库地址",
+                    "url": "https://github.com/ObjectKaz/cpplearn",
                     "target": true
                 }
             ]
