@@ -1,15 +1,88 @@
-/*大点*/
-h2 {
-    background:#00ae88;
-    display:block;
-    padding:10px;
-    margin:5px 0;
-    color:#fff;
-    border-radius:5px;
-    border:none;
+
+ a {
+color:#606266;
+transition: all .3s linear;
 }
-/*案例*/
+
+a:hover {
+color:#409EFF;
+}
+
+/*一.二.三.*/
+h2 {
+display: block;
+    display: block;
+    position: relative;
+    padding: 10px 0;
+    margin: 5px 0;
+    color: #409EFF;
+    opacity: 0.75;
+    transition: opacity .3s linear;
+}
+h2:after {
+    content: ' ';
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    background: #409EFF;
+    bottom: -1px;
+    left: 0;
+}
+
+h2:hover {
+    opacity: 1;
+}
 
 h3 {
-    color:#00ae88;
+color:#409EFF;
+}
+/*案例*/
+blockquote {
+color:#909399;
+border-left-color:#DCDFE6;
+background:#fafafa;
+opacity: 0.85;
+transition: opacity .3s ease-in-out;
+}
+
+blockquote:hover {
+opacity: 1;
+}
+
+blockquote.info {
+border-left-color:#1890ff;
+color:#1890ff;
+background:#fafafa;
+}
+
+blockquote.danger {
+color: #f5222d;
+background:#fafafa;
+border-color: #ff4d4f;
+}
+
+blockquote.success {
+    border-color: #bae637;
+    color: #7cb305;
+}
+
+pre {
+background:#fafafa;
+}
+/*表格组件*/
+tr {
+    border-bottom: solid 1px #f0f0f0;
+}
+tr:hover td {
+    background-color: #fafafa;
+}
+td,th {
+padding:10px 5px;
+border:0;
+}
+td {
+    transition:border .3s ease-in-out;
+}
+th {
+color:#909399;
 }
