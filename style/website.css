@@ -81,7 +81,7 @@ padding:10px 5px;
 border:0;
 }
 td {
-    transition:border .3s ease-in-out;
+    transition:all .3s ease-in-out;
 }
 th {
 color:#909399;
