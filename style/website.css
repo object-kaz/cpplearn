@@ -1,14 +1,35 @@
-
+* {
+opacity:0.9
+}
+/*自定义链接样式*/
  a {
-color:#606266;
-transition: all .3s linear;
+    transition: all .3s ease-in-out;
+    display: inline-block;
+    position: relative;
+color: #606266;
 }
 
 a:hover {
 color:#409EFF;
 }
 
-/*一.二.三.*/
+/*自定义下划线样式*/
+a::after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 5px;
+    height: 0.5px;
+    background: #606266;
+    transition: background .3s ease-in-out;
+}
+
+a:hover::after {
+    background: #409EFF;
+}
+
+/*主标题*/
 h2 {
 display: block;
     display: block;
@@ -18,14 +39,16 @@ display: block;
     color: #409EFF;
     opacity: 0.75;
     transition: opacity .3s linear;
+border-bottom-width:1.5px;
 }
+
 h2:after {
     content: ' ';
     position: absolute;
-    width: 50px;
-    height: 1px;
+    width: 70px;
+    height: 1.5px;
     background: #409EFF;
-    bottom: -1px;
+    bottom: -1.5px;
     left: 0;
 }
 
@@ -40,7 +63,7 @@ color:#409EFF;
 blockquote {
 color:#909399;
 border-left-color:#DCDFE6;
-background:#fafafa;
+background:#fff;
 opacity: 0.85;
 transition: opacity .3s ease-in-out;
 }
