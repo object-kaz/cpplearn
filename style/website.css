@@ -1,11 +1,9 @@
 * {
-opacity:0.9
+opacity:0.9；
 }
 /*自定义链接样式*/
  a {
     transition: all .3s ease-in-out;
-    display: inline-block;
-    position: relative;
 color: #606266;
 }
 
@@ -14,20 +12,6 @@ color:#409EFF;
 }
 
 /*自定义下划线样式*/
-a::after {
-    content: ' ';
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 5px;
-    height: 0.5px;
-    background: #606266;
-    transition: background .3s ease-in-out;
-}
-
-a:hover::after {
-    background: #409EFF;
-}
 
 /*主标题*/
 h2 {
