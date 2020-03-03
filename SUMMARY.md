@@ -23,4 +23,8 @@
 	*	[输入输出流](default.md)
 		*	[概述](输入输出流/概述.md)
 		*	[标准输出](输入输出流/标准输出.md)
+		*	[标准输入](default.md)
+		*	[文件流](default.md)
+		*	[字符串流](default.md)
+	*	[字符串、容器和迭代器](default.md)
 
