@@ -2,7 +2,9 @@
     "plugins": [
         "highlight",
         "copy-code",
-        "comment"
+        "comment",
+        "flow",
+        "tex"
     ],
     "pluginsConfig": {
         "theme-default": {
