@@ -35,4 +35,4 @@
 		*	[标准输入](docs/C++标准库/输入输出流/标准输入.md)
 		*	[文件流](default.md)
 		*	[字符串流](default.md)
-
+	*	[auto_ptr](docs/C++标准库/auto_ptr.md)
