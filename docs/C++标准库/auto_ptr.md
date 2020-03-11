@@ -45,7 +45,7 @@ int_demo.reset(new int(2021));
 ```c++
 string_demo.assign('hello');
 ```
-## [$]三.auto_ptr的权限
+## [$]三.auto_ptr的删除权限
 1. 当使用一个auto_ptr对象初始化另一个auto_ptr对象，或对auto_ptr对象使用赋值语句时，为了避免重复删除，原auto_ptr对象失去了删除权限，而新auto_ptr对象则拥有删除权限。
 
 ```c++
