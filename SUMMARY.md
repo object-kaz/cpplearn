@@ -1,4 +1,4 @@
-*	[介绍](README.md)
+*	介绍](README.md)
 *	[概述](docs/概述.md)
 *	[C++基础](default.md)
 	*	[注释](docs/C++基础/注释.md)
