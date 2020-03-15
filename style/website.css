@@ -1,21 +1,27 @@
 * {
-opacity:0.9；
+    opacity: 0.9；
 }
+
+
 /*自定义链接样式*/
- a {
+
+a {
     transition: all .3s ease-in-out;
-color: #606266;
+    color: #606266;
 }
 
 a:hover {
-color:#409EFF;
+    color: #409EFF;
 }
+
 
 /*自定义下划线样式*/
 
+
 /*主标题*/
+
 h2 {
-display: block;
+    display: block;
     display: block;
     position: relative;
     padding: 10px 0;
@@ -23,7 +29,7 @@ display: block;
     color: #409EFF;
     opacity: 0.75;
     transition: opacity .3s linear;
-border-bottom-width:1.5px;
+    border-bottom-width: 1.5px;
 }
 
 h2:after {
@@ -41,31 +47,34 @@ h2:hover {
 }
 
 h3 {
-color:#409EFF;
+    color: #409EFF;
 }
+
+
 /*案例*/
+
 blockquote {
-color:#909399;
-border-left-color:#DCDFE6;
-background:#fff;
-opacity: 0.85;
-transition: opacity .3s ease-in-out;
+    color: #909399;
+    border-left-color: #DCDFE6;
+    background: #fff;
+    opacity: 0.85;
+    transition: opacity .3s ease-in-out;
 }
 
 blockquote:hover {
-opacity: 1;
+    opacity: 1;
 }
 
 blockquote.info {
-border-left-color:#1890ff;
-color:#1890ff;
-background:#fafafa;
+    border-left-color: #1890ff;
+    color: #1890ff;
+    background: #FFF;
 }
 
 blockquote.danger {
-color: #f5222d;
-background:#fafafa;
-border-color: #ff4d4f;
+    color: #f5222d;
+    background: #FFF;
+    border-color: #ff4d4f;
 }
 
 blockquote.success {
@@ -73,23 +82,36 @@ blockquote.success {
     color: #7cb305;
 }
 
-pre {
-background:#fafafa;
+blockquote.warning {
+    color: #faad14;
+    border-color: #faad14;
 }
+
+pre {
+    background: #fafafa;
+}
+
+
 /*表格组件*/
+
 tr {
     border-bottom: solid 1px #f0f0f0;
 }
+
 tr:hover td {
     background-color: #fafafa;
 }
-td,th {
-padding:10px 5px;
-border:0;
-}
-td {
-    transition:background .3s ease-in-out;
-}
+
+td,
 th {
-color:#909399;
+    padding: 10px 5px;
+    border: 0;
+}
+
+td {
+    transition: background .3s ease-in-out;
+}
+
+th {
+    color: #909399;
 }
