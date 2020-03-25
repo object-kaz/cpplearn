@@ -1,4 +1,4 @@
->[warning] `auto_ptr` 已在 `C++11` 中被弃用，在 `C++17` 中被移除
+>[warning] `[11!]` `[17-]`
 
 >[danger] 该对象位于头文件 `memory`
 ## [$]一.什么是auto_ptr
