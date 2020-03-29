@@ -1,6 +1,6 @@
 # C++笔记
 
-开放的，用MarkDown写的C++笔记。
+用MarkDown写的C++笔记。
 
 ## 在线阅读
 [在线阅读链接1](http://cpplearn.objectkaz.cn)
@@ -14,9 +14,9 @@
 >微信扫描打开看云小程序阅读
 ><img src="https://www.kancloud.cn/z1481281370/cpplearn/xiao"  width="100" height="100" title="微信扫描打开看云小程序阅读">
 
->[info]在线阅读由[看云](https://www.kancloud.cn)提供技术支持。
-
->[info]可从在线阅读链接2处下载pdf、epub、mobi格式的文件。
+>可从在线阅读链接2处下载pdf、epub、mobi格式的文件。
+>
+>可以在仓库处 `mind` 文件夹 下载思维导图工程文件( `.xmind格式` )。
 
 ## 标注信息
 +	`[$]` 拓展内容，教材没有。
