@@ -4,7 +4,9 @@
         "copy-code",
         "comment",
         "flow",
-        "tex"
+        "tex",
+        "sequence",
+        "image-zoom"
     ],
     "pluginsConfig": {
         "theme-default": {
