@@ -60,7 +60,6 @@
     * [2.4 继承与派生](default.md)
     * [2.5 多态性与虚函数](default.md)
 * [第三章 模板与泛型编程](default.md)
-	* [3.1 函数模板](docs/模板与泛型编程/函数模板.md)
 * [第四章 C++标准库](default.md)
     * [4.1 概述](docs/C++标准库/概述.md)
     * [4.2 输入输出流](default.md)
