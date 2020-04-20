@@ -131,7 +131,7 @@ blockquote.test-vc::before {
 }
 
 blockquote.test-gpp {
-    border: #ffc53d;
+    border-color: #ffc53d;
 }
 
 blockquote.test-gpp::before {
