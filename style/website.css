@@ -40,7 +40,7 @@ h2:after {
     background: #409EFF;
     bottom: -2px;
     left: 0;
-    transition: width .3s ease-out;
+    transition: width .6s ease-out;
 }
 
 h2:hover {
