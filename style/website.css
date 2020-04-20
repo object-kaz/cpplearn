@@ -48,7 +48,7 @@ h2:hover {
 }
 
 h2:hover::after {
-    width: 100px;
+    width: 100%;
 }
 
 h3 {
