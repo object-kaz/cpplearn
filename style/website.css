@@ -104,19 +104,34 @@ blockquote[class^="test"]::before {
     margin: -5px -5px 5px -15px;
 }
 
+blockquote.test {
+    border-color: #40a9ff;
+}
+
 blockquote.test::before {
     content: '运行结果';
     color: #1890ff;
+    background-color: #e6f7ff;
+}
+
+blockquote.test-vc {
+    border-color: #bae637;
 }
 
 blockquote.test-vc::before {
     content: '可能的运行结果(测试环境：VC++6.0)';
     color: #7cb305;
+    background-color: #fcffe6;
+}
+
+blockquote.test-gpp {
+    border: #ffc53d;
 }
 
 blockquote.test-gpp::before {
     content: '可能的运行结果(测试环境：g++8.1.0)';
     color: #faad14;
+    background-color: #fffbe6;
 }
 
 /*表格组件*/
