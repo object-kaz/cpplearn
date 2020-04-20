@@ -91,12 +91,12 @@ pre {
     background: #fafafa;
 }
 
-blockquote [class^="test"] {
+blockquote[class^="test"] {
     border: solid 1px #F0F0F0;
     border-radius: 5px;
 }
 
-blockquote [class^="test"]::before {
+blockquote[class^="test"]::before {
     background: #fafafa;
     border-radius: 5px 5px 0 0;
     display: block;
