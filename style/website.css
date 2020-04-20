@@ -51,7 +51,7 @@ h3 {
 }
 
 
-/*案例*/
+/*引用和测试*/
 
 blockquote {
     color: #909399;
@@ -91,6 +91,20 @@ pre {
     background: #fafafa;
 }
 
+blockquote.test-vc {
+    border: solid 1px #F0F0F0;
+    border-radius: 5px;
+}
+
+blockquote.test-vc::before {
+    content: 'VC++6.0测试结果';
+    color: #7cb305;
+    background: #fafafa;
+    border-radius: 5px 5px 0 0;
+    display: block;
+    padding: 10px;
+    margin: -5px -5px 5px -15px;
+}
 
 /*表格组件*/
 
