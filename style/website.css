@@ -29,21 +29,26 @@ h2 {
     color: #409EFF;
     opacity: 0.75;
     transition: opacity .3s linear;
-    border-bottom-width: 1.5px;
+    border-bottom-width: 2px;
 }
 
 h2:after {
     content: ' ';
     position: absolute;
     width: 70px;
-    height: 1.5px;
+    height: 2px;
     background: #409EFF;
-    bottom: -1.5px;
+    bottom: -2px;
     left: 0;
+    transition: width .3s ease-out;
 }
 
 h2:hover {
     opacity: 1;
+}
+
+h2:hover::after {
+    width: 100px;
 }
 
 h3 {
