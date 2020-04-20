@@ -91,19 +91,32 @@ pre {
     background: #fafafa;
 }
 
-blockquote.test-vc {
+blockquote [class^="test"] {
     border: solid 1px #F0F0F0;
     border-radius: 5px;
 }
 
-blockquote.test-vc::before {
-    content: 'VC++6.0测试结果';
-    color: #7cb305;
+blockquote [class^="test"]::before {
     background: #fafafa;
     border-radius: 5px 5px 0 0;
     display: block;
     padding: 10px;
     margin: -5px -5px 5px -15px;
+}
+
+blockquote.test::before {
+    content: '运行结果';
+    color: #1890ff;
+}
+
+blockquote.test-vc::before {
+    content: '运行结果(VC++6.0)';
+    color: #7cb305;
+}
+
+blockquote.test-gpp::before {
+    content: '运行结果(g++8.1.0)';
+    color: #faad14;
 }
 
 /*表格组件*/
