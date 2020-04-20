@@ -2,7 +2,7 @@
 
 1.	指 `const` `volatile` `const volatile` 限定符。
 2.	`const` **限定符** 变量初始化后，其值不可改变。
-3.	[$] `volatile` **限定符** 表示变量可能在程序之外发生改变。
+3.	`volatile` **限定符** 表示变量可能在程序之外发生改变。
 
 ## 二.const 型数据小结
 
