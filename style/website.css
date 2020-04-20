@@ -110,12 +110,12 @@ blockquote.test::before {
 }
 
 blockquote.test-vc::before {
-    content: '运行结果(VC++6.0)';
+    content: '可能的运行结果(测试环境：VC++6.0)';
     color: #7cb305;
 }
 
 blockquote.test-gpp::before {
-    content: '运行结果(g++8.1.0)';
+    content: '可能的运行结果(测试环境：g++8.1.0)';
     color: #faad14;
 }
 
