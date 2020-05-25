@@ -1,5 +1,13 @@
-* {
-    opacity: 0.9；
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+code {
+    opacity: 0.99；
 }
 
 
@@ -27,7 +35,6 @@ h2 {
     padding: 10px 0;
     margin: 5px 0;
     color: #409EFF;
-    opacity: 0.75;
     transition: opacity .3s linear;
     border-bottom-width: 2px;
 }
@@ -36,19 +43,12 @@ h2:after {
     content: ' ';
     position: absolute;
     width: 70px;
-    height: 2px;
+    height: 4px;
     background: #409EFF;
-    bottom: -2px;
+    bottom: -4px;
     left: 0;
+    border-radius: 2px;
     transition: width .6s ease-out;
-}
-
-h2:hover {
-    opacity: 1;
-}
-
-h2:hover::after {
-    width: 100%;
 }
 
 h3 {
@@ -90,10 +90,6 @@ blockquote.success {
 blockquote.warning {
     color: #faad14;
     border-color: #faad14;
-}
-
-pre {
-    background: #fafafa;
 }
 
 blockquote[class^="test"] {
@@ -143,6 +139,14 @@ blockquote.test-gpp::before {
     content: '可能的运行结果(测试环境：g++8.1.0)';
     color: #faad14;
     background-color: #fffbe6;
+}
+
+pre {
+    background: #f6f8fa;
+}
+
+code:not(pre code) {
+    color:#fa541c;
 }
 
 /*表格组件*/
