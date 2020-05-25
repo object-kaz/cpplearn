@@ -144,7 +144,7 @@ pre {
     background: #f6f8fa;
 }
 
-code {
+code:not(pre) {
     color:#fa541c;
 }
 
