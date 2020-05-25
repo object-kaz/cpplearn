@@ -144,8 +144,12 @@ pre {
     background: #f6f8fa;
 }
 
-code:not(pre) {
+code {
     color:#fa541c;
+}
+
+pre code {
+    color:#333;
 }
 
 /*表格组件*/
