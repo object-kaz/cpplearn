@@ -31,8 +31,8 @@ a:hover {
 h2 {
     display: block;
     position: relative;
-    padding: 10px;
-    margin: 5px 0;
+    padding: 0 10px;
+    margin: 10px 0;
     color: #409EFF;
     transition: opacity .3s linear;
     border-bottom-width: 0;
