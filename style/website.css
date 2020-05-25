@@ -36,7 +36,7 @@ h2 {
     margin: 5px 0;
     color: #409EFF;
     transition: opacity .3s linear;
-    border-bottom-width: 2px;
+    border-bottom-width: 0;
 }
 
 h2:after {
