@@ -7,7 +7,7 @@ h6,
 p,
 li,
 code {
-    opacity: 0.99；
+    opacity: 0.99;
 }
 
 
@@ -29,7 +29,6 @@ a:hover {
 /*主标题*/
 
 h2 {
-    display: block;
     display: block;
     position: relative;
     padding: 10px 0;
