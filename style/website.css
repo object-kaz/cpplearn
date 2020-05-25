@@ -41,13 +41,12 @@ h2 {
 h2:after {
     content: ' ';
     position: absolute;
-    width: 70px;
-    height: 4px;
+    width: 4px;
+    height: 100%;
     background: #409EFF;
-    bottom: -4px;
-    left: 0;
+    top: 0;
+    left: -4px;
     border-radius: 2px;
-    transition: width .6s ease-out;
 }
 
 h3 {
