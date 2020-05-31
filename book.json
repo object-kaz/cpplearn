@@ -11,7 +11,7 @@
     "pluginsConfig": {
         "theme-default": {
             "auto_open": true,
-            "show_nav": true,
+            "show_nav": false,
             "logo": {},
             "navs": [
                 {

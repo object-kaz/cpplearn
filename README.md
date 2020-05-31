@@ -1,6 +1,7 @@
 # C++笔记
 
 用MarkDown写的C++笔记。
+<a href='https://gitee.com/pikoyo/cpplearn/stargazers'><img src='https://gitee.com/pikoyo/cpplearn/badge/star.svg?theme=dark' alt='star'></img></a><a href='https://gitee.com/pikoyo/cpplearn/members'><img src='https://gitee.com/pikoyo/cpplearn/badge/fork.svg?theme=dark' alt='fork'></img></a><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/object-kaz/cpplearn?style=flat-square"><img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/w/object-kaz/cpplearn?style=flat-square">
 
 ## 在线阅读
 [在线阅读链接1](http://cpplearn.objectkaz.cn)
