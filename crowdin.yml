@@ -1,0 +1,3 @@
+files:
+  - source: docs/**/*
+    translation: '%two_letters_code%/docs/%file_name%.%file_extension%'
