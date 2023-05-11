@@ -1,31 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2023-05-11T09:02:37.206Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="f0um5D0b73BMDG4RIT73" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-11T09:04:21.024Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="-anJeLyF9hlbmzgQuFJc" version="21.2.9" type="github">
   <diagram name="第 1 页" id="LbV2Ouu0MSUz2O4njj0f">
     <mxGraphModel dx="1050" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="asuClRF9nyO96nMHcw2N-1" value="Schema" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#ece7f9;" vertex="1" parent="1">
+        <mxCell id="asuClRF9nyO96nMHcw2N-1" value="Schema" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#ece7f9;glass=0;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="210" y="300" width="390" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="asuClRF9nyO96nMHcw2N-2" value="协议层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6f81db;strokeColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="asuClRF9nyO96nMHcw2N-2" value="协议层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6f81db;strokeColor=none;fontColor=#FFFFFF;glass=0;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="100" y="300" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="asuClRF9nyO96nMHcw2N-3" value="编辑器" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#e6f4fc;" vertex="1" parent="1">
+        <mxCell id="asuClRF9nyO96nMHcw2N-3" value="编辑器" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#e6f4fc;glass=0;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="210" y="230" width="390" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="asuClRF9nyO96nMHcw2N-4" value="引擎层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#69b1e4;strokeColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="asuClRF9nyO96nMHcw2N-4" value="引擎层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#69b1e4;strokeColor=none;fontColor=#FFFFFF;glass=0;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="100" y="230" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="asuClRF9nyO96nMHcw2N-7" value="编辑器&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;组件库" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#e2f3f3;" vertex="1" parent="1">
+        <mxCell id="asuClRF9nyO96nMHcw2N-7" value="编辑器&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;组件库" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#e2f3f3;glass=0;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="210" y="160" width="390" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="asuClRF9nyO96nMHcw2N-8" value="生态层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6ec4c4;strokeColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="asuClRF9nyO96nMHcw2N-8" value="生态层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6ec4c4;strokeColor=none;fontColor=#FFFFFF;glass=0;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="100" y="160" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="asuClRF9nyO96nMHcw2N-9" value="登录注册&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;应用管理&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;用户管理&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;角色管理&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;权限管理" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#e9f7e9;" vertex="1" parent="1">
+        <mxCell id="asuClRF9nyO96nMHcw2N-9" value="登录注册&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;应用管理&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;用户管理&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;角色管理&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;权限管理" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#e9f7e9;glass=0;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="210" y="90" width="390" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="asuClRF9nyO96nMHcw2N-10" value="应用层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#77c386;strokeColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="asuClRF9nyO96nMHcw2N-10" value="应用层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77c386;strokeColor=none;fontColor=#FFFFFF;glass=0;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="100" y="90" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
