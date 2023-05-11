@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-11T09:44:53.398Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="vadNv_8lvyCeq2Vuz1PM" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-11T09:51:53.093Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="r0vM8UvEgXaiCBmzha7U" version="21.2.9" type="github">
   <diagram name="第 1 页" id="LbV2Ouu0MSUz2O4njj0f">
-    <mxGraphModel dx="1050" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -59,7 +59,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fHXqGAKMI-KuBx6w6PlO-6" value="&lt;div&gt;defaultSlotFn.bind&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" vertex="1" parent="1">
-          <mxGeometry x="460" y="310" width="140" height="50" as="geometry" />
+          <mxGeometry x="460" y="380" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fHXqGAKMI-KuBx6w6PlO-21" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="fHXqGAKMI-KuBx6w6PlO-7" target="fHXqGAKMI-KuBx6w6PlO-19">
           <mxGeometry relative="1" as="geometry" />
@@ -92,10 +92,37 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fHXqGAKMI-KuBx6w6PlO-9" value="parseEvents" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" vertex="1" parent="1">
-          <mxGeometry x="460" y="400" width="140" height="50" as="geometry" />
+          <mxGeometry x="460" y="310" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fHXqGAKMI-KuBx6w6PlO-19" value="组件" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="730" y="180" width="70" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="fHXqGAKMI-KuBx6w6PlO-29" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=#CCCCCC;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="fHXqGAKMI-KuBx6w6PlO-28" target="fHXqGAKMI-KuBx6w6PlO-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fHXqGAKMI-KuBx6w6PlO-30" value="ctx" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="fHXqGAKMI-KuBx6w6PlO-29">
+          <mxGeometry x="0.2161" y="1" relative="1" as="geometry">
+            <mxPoint x="-16" y="-37" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fHXqGAKMI-KuBx6w6PlO-31" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=#CCCCCC;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="fHXqGAKMI-KuBx6w6PlO-28" target="fHXqGAKMI-KuBx6w6PlO-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fHXqGAKMI-KuBx6w6PlO-32" value="ctx" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="fHXqGAKMI-KuBx6w6PlO-31">
+          <mxGeometry x="-0.1768" y="-2" relative="1" as="geometry">
+            <mxPoint x="-1" y="-27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fHXqGAKMI-KuBx6w6PlO-35" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=#CCCCCC;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="fHXqGAKMI-KuBx6w6PlO-28" target="fHXqGAKMI-KuBx6w6PlO-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fHXqGAKMI-KuBx6w6PlO-36" value="ctx" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="fHXqGAKMI-KuBx6w6PlO-35">
+          <mxGeometry x="-0.0729" y="1" relative="1" as="geometry">
+            <mxPoint x="-40" y="-77" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fHXqGAKMI-KuBx6w6PlO-28" value="根渲染组件" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="290" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
